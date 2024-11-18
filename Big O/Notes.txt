@@ -1,0 +1,64 @@
+Big O Notation:-
+****************
+
+Motivate the need for something like big O Notation
+-----------------------------------------------------
+->write a function that accept a string input 
+ and return a reversed copy.(we can give the best solution)
+
+->huge data we need to use effecian.t 
+algoritham that time it's requird
+
+
+Describe what Big O Notation INSERTION
+
+Simplify BIG O Expressions
+
+Define "Time complexity " and "Space complexity"
+
+Evaluate the time complexity and Space complexity of different algorithams using big o Notation
+
+Describe what a logarutham is
+
+Method 1-
+const addUpTo = (n) => {
+    let total =0 ;
+    for(let i = 1; i <=n; i++){ // 1+2+3+4 =10
+        total += i;
+    }
+    return total;
+}
+
+Method 2-
+const addUpTo = (n)=>{
+    return n*(n+1)/2;
+}
+console.log(addUpTo(4));
+
+which one is better?
+
+*faster
+*Less memory intensive
+*More readable
+
+The Problem with time :-
+--------------------------
+*Diffrent machine will record diffrent time
+*the same machine will record diffrent times
+*For fast algorthms, speed measurement may not be precise enough
+
+
+If not time, then what to do?
+
+*Rather than counting the seconds, 
+which are so veriable...
+
+*Let's count the number of simple operations 
+the computer has to perform
+
+
+https://rithmschool.github.io/function-timer-demo/
+
+Introducing Big O
+******************
+
