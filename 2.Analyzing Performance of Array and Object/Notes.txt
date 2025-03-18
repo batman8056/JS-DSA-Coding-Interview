@@ -1,0 +1,42 @@
+Big O of object;- (unordered list)
+----------------
+
+-Insertion - O(1)
+-Remove - O(1)
+-Searching - O(n)
+-Access - O(1)
+
+->we don't need any ordering object are an excellent choice
+
+Big O of object Method;-(object.js)
+---------------------
+
+Object.keys - O(N)
+Object.value - O(N)
+Object.entries - O(N)
+hasOwnProperty - (O(N))
+
+Big O of Arrays:-(ordered list)
+----------------
+
+->when you need fast access/ insert/ remove and sort
+
+Inserting - it depends...
+Removing - it depends...
+Searching  - O(N)
+Access  - O(1)
+
+Big O of Array Operation;-(array.js)
+------------------------
+push - O(1)
+pop - O(1)
+shift - O(N)
+unshift - O(N)
+concat - O(N)
+slice - O(N)
+splice - O(N *log N)
+forEach/map/filter/reduce/etc... - O(N)
+
+
+
+
