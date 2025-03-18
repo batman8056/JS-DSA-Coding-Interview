@@ -6,18 +6,34 @@ How Do You Improve?
 Some Pattern:-
 -------------
 
-*Frequency Counter
-*Multiple Pointers
-*Sliding Window
-*Divide and Conquer
-*Dynamic programming
+* Frequency Counter
+* Multiple Pointers
+* Sliding Window
+* Divide and Conquer
+* Dynamic programming
 * Greedy Algorithm
-*Backtracking
+* Backtracking
 
-1.Frequency Counters
+1. Frequency Counters 
 ->This pattern uses objects or sets to collect 
   values/Frequencies of values.
 
 ->This can often avoid the need for nested loop 
  or O(N^2) operations with arrays/String.
+
+example:---
+freqCounter.js
+same_naive_solution.js
+same_refactored_solution.js
+validAnagram.js
+
+2. Multiple Pointers
+->Creating pointer or values that correspond to an index 
+ or position and move towards the beginning, end or middle 
+ based on a certain condition.
+
+->very efficient for solving problems with minimal space complexity.
+
+example:---
+
 
