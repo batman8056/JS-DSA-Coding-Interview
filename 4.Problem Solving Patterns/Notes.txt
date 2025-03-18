@@ -38,3 +38,13 @@ example:---
 sumOfZero.js
 sum_zero_naive.js
 sum_zero_refactored.js
+uniqueValue.jscountUniqueValue.js
+
+3. Sliding Window
+->This pattern involves creating a windows which can either be an array 
+  or number from one position to another.
+->Depending on a certain condition, the windows either 
+  increases or closes (and a new window is create).
+->Very useful for keeping track of a subset of data in an array/string etc...
+
+example:---
