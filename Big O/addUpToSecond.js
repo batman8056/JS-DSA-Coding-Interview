@@ -1,4 +1,4 @@
-
+// constant
 // *faster
 // *Less memory intensive
 // *More readable

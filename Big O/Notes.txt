@@ -6,19 +6,9 @@ Motivate the need for something like big O Notation
 ->write a function that accept a string input 
  and return a reversed copy.(we can give the best solution)
 
-->huge data we need to use effecian.t 
+->huge data we need to use effeciant 
 algoritham that time it's requird
 
-
-Describe what Big O Notation INSERTION
-
-Simplify BIG O Expressions
-
-Define "Time complexity " and "Space complexity"
-
-Evaluate the time complexity and Space complexity of different algorithams using big o Notation
-
-Describe what a logarutham is
 
 Method 1-
 const addUpTo = (n) => {
@@ -75,9 +65,9 @@ of simple opertaions the computer has to do is eventually
 less than a constant times f(n), as n increases
 
 
-* f(n) could be linear (f(n) = n)
-* f(n) could be quadratic (f(n) = n^2)
-* f(n) could be constant (f(n) = 1)
+*f(n) could be linear (f(n)=n) addUpToFirst.js
+*f(n) could be quadratic (f(n)=n^2) printAllPairs.js
+*f(n) could be constant (f(n)=1) addUpToSecond.js
 * f(n) could be something entirely different
 
 Another Example:- O(n)
@@ -96,7 +86,7 @@ function countUpAndDown(n) {
 
 Another Example 2:-  O(n) operations inside of an O(n) operation
   
-  function printAllPairs(n) {
+function printAllPairs(n) {
   for (var i = 0; i < n; i++) {
     for (var j = 0; j < n; j++) {
       console.log(i, j);
@@ -106,5 +96,48 @@ Another Example 2:-  O(n) operations inside of an O(n) operation
 
 O(n^2)
 
+Simplify Big O Expressions:-
+--------------------------
+
+->when determining the time complexity of an algoritham 
+  there are some helpful rule of thumbs for big O Expressions.
+
+->These rules of thumb are consequences of the definition of big O natation.
 
 
+Big O Shorthands:-
+----------------
+
+1. Arithmetic operations are constant 
+2. variable assignment is constant
+3. Accesing element in an array (by index or object (by key) is constant).
+4. in a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop
+
+
+Space complexity
+---------------
+->So far, We 've been focusing on time complexity: How can we analyze the runtime of an algortham as the size of the input increases?
+
+->We can also use big O notation to analyze space complexity: How much addition memeory do we need to allcate in order to run the code in our algoritham?
+
+Space complexity in JS
+----------------------
+->Most primitive are constant space
+->string requird O(n) space (where n is the string length)
+->Referance type are generally O(n), where n is the length (for array) or the number of key (for object)
+
+logarithms:-
+-----------
+->it is encountered some of the most common complexities: O(1), O(n), O(n^2)
+
+->sometime big O Expressions involve more complex mathematical Expressions
+
+->One that appears more often than you might like is the logarithms
+
+->log2(value) = exponent ---> 2^exponent = value
+
+->The logaritham of a number roughly measures the 
+  number of times you can divide that number by 2 
+  before you get a value less than or equal to one.
+
+->
