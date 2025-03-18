@@ -1,0 +1,23 @@
+How Do You Improve?
+******************
+1. Devise a plan for solving.
+2. Master common problem solving pattern.
+
+Some Pattern:-
+-------------
+
+*Frequency Counter
+*Multiple Pointers
+*Sliding Window
+*Divide and Conquer
+*Dynamic programming
+* Greedy Algorithm
+*Backtracking
+
+1.Frequency Counters
+->This pattern uses objects or sets to collect 
+  values/Frequencies of values.
+
+->This can often avoid the need for nested loop 
+ or O(N^2) operations with arrays/String.
+

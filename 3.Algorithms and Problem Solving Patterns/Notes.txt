@@ -1,0 +1,47 @@
+What is an algorithm ?:
+---------------------
+
+->A Process or Set of steps to accomplish a 
+ certain task.
+
+->It's the foundation for being a 
+  successful problem solving and developer.
+
+
+How Do You Improve ?
+------------------
+1. Devise a plan for solving problems
+2. Master common problem solving patterns
+
+Problem Solving:
+---------------
+1.understand the problem
+2.Explore concrete examples
+3.Break it Down
+4.Solve/Simplify
+5.Look Back and refactor
+
+1.understand the problem
+->can i restate the problem in my own words
+->what are the inputs that go into the problem
+->what are the outputs that sould come from the solution to the problem
+
+
+2.Explore concrete examples
+->Coming up with example can help you understand the problem better
+->Start with simple example
+->Progress to more Complex Example 
+->Explore Examples with Empty inputs
+->Explore Examples with Invalid inputs
+
+3.Break it Down-(charCount.js)
+->Explicity write out the steps you need to take.
+
+4.Solve/Simplify
+->Solving A Simpler Problem
+->Find the core difficulty in what you're tring to Do
+->Temporarily ignore that difficulty
+->write simplified solution
+->Then incorporate that difficulty back in
+
+5.Look Back and refactor-(charCount.js)

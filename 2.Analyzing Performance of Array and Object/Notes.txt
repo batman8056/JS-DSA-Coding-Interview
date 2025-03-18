@@ -34,7 +34,8 @@ shift - O(N)
 unshift - O(N)
 concat - O(N)
 slice - O(N)
-splice - O(N *log N)
+splice - O(N)
+sort - O(N *log N)
 forEach/map/filter/reduce/etc... - O(N)
 
 
