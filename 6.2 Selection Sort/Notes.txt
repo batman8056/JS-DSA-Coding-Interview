@@ -1,0 +1,5 @@
+Selection sort:-
+
+->Similar to bubble sort but instead of first 
+  place large values into sorted position, it place 
+  small values into sorted position

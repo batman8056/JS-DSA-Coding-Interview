@@ -1,13 +1,20 @@
 const sortArray = (arr) => {
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length - i - 1; j++) {
+    for (let i = arr.length; i > 0; i--) {
+        noSwap = true;
+        for (let j = 0; j < i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];  // Swap elements using destructuring
+                //swap
+                var temp = arr[j];
+                arr[j] = arr[j+1]
+                arr[j+1] =temp;
+                noSwap = false;
+                // [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];  // Swap elements using destructuring
             }
         }
+        if(noSwap) break;
     }
     return arr;
 };
 
 // Example
-console.log(sortArray([5, 2, 9, 1, 5, 6]));  // Output: [1, 2, 5, 5, 6, 9]
+console.log(sortArray([5, 2, 9, 1,-3,  5, 6]));  // Output: [1, 2, 5, 5, 6, 9]
