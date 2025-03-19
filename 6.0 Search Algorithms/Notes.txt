@@ -19,3 +19,5 @@ O(n) - worst
 
 Binary Search:-
 
+O(log n) - worst and Average
+O(n) - Best Case
