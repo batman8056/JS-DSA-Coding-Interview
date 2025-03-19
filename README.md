@@ -11,14 +11,14 @@ This repository contains comprehensive notes and code examples on **Data Structu
 4. [Problem Solving Patterns](#problem-solving-patterns)  
 5. [Recursion](#recursion)  
 6. [Searching Algorithms](#searching-algorithms)  
-   - Bubble Sort  
-   - Selection Sort  
-   - Insertion Sort  
-   - Merge Sort  
-   - Quick Sort  
-   - Radix Sort  
+   - 6.1 Bubble Sort  
+   - 6.2 Selection Sort  
+   - 6.3 Insertion Sort  
+   - 6.4 Merge Sort  
+   - 6.5 Quick Sort  
+   - 6.6 Radix Sort  
 7. [Introduction to Data Structures](#introduction-to-data-structures)  
-   - Singly Linked List  
+   - 7.1 Singly Linked List  
    - Doubly Linked List  
    - Stacks and Queues  
    - Binary Search Trees  
