@@ -48,3 +48,12 @@ uniqueValue.jscountUniqueValue.js
 ->Very useful for keeping track of a subset of data in an array/string etc...
 
 example:---
+maxSubArray.js
+max_sum_refactored.js
+
+4. Divide and Conquer
+->This pattern involves dividing data set into smaller chunk and 
+ then repeating a process with a subset of data.
+ 
+->This pattern can tremendously decrease time complexity.
+
