@@ -1,2 +1,19 @@
 Recursion
+*********
+What is Recursion?
+->A process (a function in our case)  that calls itself
+
+The Call Stack:
+->Any time a function is invoked it is placed(pushed)
+  on the top of the call stack.
+
+->when javaScript sees the return keyword or 
+  when the function ends, the compiler will remove(pop).
+
+How Recursion function work?
+->Invoke the same function  with a diffrent input 
+  until you reach your base case.
+
+Example:---
+countDown.js
 
