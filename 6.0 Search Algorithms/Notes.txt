@@ -21,3 +21,13 @@ Binary Search:-
 
 O(log n) - worst and Average
 O(n) - Best Case
+
+
+Naive String Search:-
+
+->Suppose you want to count the number of times 
+ a smaller string appears in a longer string.
+
+->A straightforword approach involes checking 
+ pair of character individually.
+

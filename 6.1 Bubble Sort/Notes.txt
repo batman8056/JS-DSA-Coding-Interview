@@ -1,0 +1,28 @@
+Elementary Sorting Algorithms:-
+
+->Sorting is the process of rearranging 
+  the items in a collection so that the items 
+  are in some kind of order.
+
+example :-
+number from smaller to larger
+names alphabetically
+movies based on release year
+movies based on revenue
+
+
+built in javascript sort method:-
+
+function compare(num1, num2){
+    return num1 - num2;
+    //return num2 - num1;/reverse order
+}
+[2,1,5,3,7,5,].sort(compare);
+
+Bubble Sorting
+--------------
+
+->A sorting algorithm where the largest values 
+  bubble up to the top!
+
+
