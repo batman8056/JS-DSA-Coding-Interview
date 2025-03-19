@@ -14,6 +14,12 @@ How Recursion function work?
 ->Invoke the same function  with a diffrent input 
   until you reach your base case.
 
+where things go wrong:-
+-----------------------
+->No base case
+->Forgetting to return or returning the wrong thing!
+->stack overflow
+
 Example:---
 countDown.js
-
+collectOdds.js

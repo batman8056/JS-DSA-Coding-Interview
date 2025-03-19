@@ -25,3 +25,19 @@ function sumRange(num){
 }
 console.log(sumRange(5));//5+4+3+2+1 =15
 
+function factorial(num){
+    total = 1;
+    for(let i = num; i>0; i--){
+        total *=i;
+    }
+    return total;
+}
+console.log(factorial(5));
+
+
+function factorialRecursiv(num){
+    if(num === 1) return 1;
+    return num * factorialRecursiv(num-1)
+}
+console.log(factorialRecursiv(5));
+
