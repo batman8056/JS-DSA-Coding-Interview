@@ -1,0 +1,14 @@
+
+->Data structures are collections of values, 
+  the relationships among them, and functions 
+  or operations that can be applied to Data.
+
+
+The Class Keyword:-
+
+->The method to create new object must be called constructor
+
+->The class keyword creates a constant, so you can redefine 
+  watch out for the syntax as well.
+
+
