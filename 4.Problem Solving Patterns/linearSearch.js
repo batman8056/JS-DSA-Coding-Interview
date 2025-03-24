@@ -1,9 +1,7 @@
 //O(n) Linear search
 function search(arr, val){
     for(let i = 0; i<arr.length; i++){
-        if(arr[i] == val){
-            return true;
-        }
+        if(arr[i] == val) return true;
     }
     return false
 }

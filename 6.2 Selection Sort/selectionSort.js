@@ -25,6 +25,7 @@ function selectionSort(arr){
         }
         //swap
         if(minIndex !== i){
+            // [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];  // Swap elements using destructuring
             let temp =arr[i]
             arr[i] = arr[minIndex]
             arr[minIndex] =temp
