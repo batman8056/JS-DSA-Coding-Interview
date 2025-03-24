@@ -5,13 +5,15 @@ Selection sort:-
   small values into sorted position
 
 $$$$$$$$$ Paeudocode $$$$$$$$
-->Store the first element as the smallest value you ve seen so far.
+->Store the first element as the smallest value 
+  you ve seen so far.
 
-->compare this item to next item in the array until you find a smaller 
-  number.
+->compare this item to next item in the array until 
+  you find a smaller number.
 
-->if a smaller number is found, designate that smaller numnber to be 
-  the new "minimum" and continue until the end of the array.
+->if a smaller number is found, designate that 
+  smaller numnber to be the new "minimum" and 
+  continue until the end of the array.
 
-->if the "minumum" is not the value (index) you initial began with,
-  swap the two values.
+->if the "minumum" is not the value (index) you 
+  initial began with, swap the two values.

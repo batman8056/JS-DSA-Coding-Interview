@@ -4,9 +4,9 @@ const sortArray = (arr) => {
         for (let j = 0; j < i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 //swap
-                var temp = arr[j];
-                arr[j] = arr[j+1]
-                arr[j+1] =temp;
+                var temp = arr[j];//init value store temp
+                arr[j] = arr[j+1];//next value replace to init value of arr[j]
+                arr[j+1] =temp;//then temp replace to next value
                 // noSwap = false;
                 // [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];  // Swap elements using destructuring
             }
