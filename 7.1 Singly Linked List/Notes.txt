@@ -21,7 +21,7 @@ Insertion and deletion can be expensive.
 can quickly be accessed at a specific index.
 
 Pushing pseudocode:-
-
+*************
 ->This function should accept a value
 ->create a new node using the value passed to the function
 ->if there is no head property on the list, 
@@ -35,7 +35,7 @@ Pushing pseudocode:-
 SingleLinkedList.js
 
 Pop pseudocode:-(Removing a Node from the end of the Linked List)
-
+****************
 ->if there are no node in the list, return undefine 
 ->Loop through the list until you reach the tail
 ->Set the next property of the 2nd to last node to be null
@@ -46,7 +46,7 @@ Pop pseudocode:-(Removing a Node from the end of the Linked List)
 SingleLinkedList.js
 
 Shifting pseudocode :-(Removing a new node from the beginning of the linked List)
-
+*************
 ->if there are no nodes, return undefine.
 ->store the current head property in a variable.
 ->Set the haed property to be the current head's next property.
@@ -55,7 +55,7 @@ Shifting pseudocode :-(Removing a new node from the beginning of the linked List
 SingleLinkedList.js
 
 Shifting pseudocode :-(Adding a new node from the beginning of the linked List)
-
+*******************
 ->This function should accept a value.
 ->Create a new node using the value passed to 
   the function.
@@ -70,7 +70,7 @@ Shifting pseudocode :-(Adding a new node from the beginning of the linked List)
 SingleLinkedList.js
 
 Get pseudocode :-(Retrieving a node by it's position in the Linked List)
-
+*********************
 ->This function should accept an index
 ->if the index is less than zero or greater than 
   or equal to the length of the list, return null.
@@ -79,7 +79,7 @@ Get pseudocode :-(Retrieving a node by it's position in the Linked List)
 SingleLinkedList.js
 
 Set(modify) pseudocode :-(Changing the value of a node based on it's position in the Linked List)
-
+*****************
 ->This function should accept the value and index.
 ->use your get function to find the specific node.
 ->if the node is not found, return false.
@@ -89,7 +89,7 @@ Set(modify) pseudocode :-(Changing the value of a node based on it's position in
 SingleLinkedList.js
 
 Insertion pseudocode:- (Adding a node to the linked list at a specific position)
-
+***********************
 ->if the index is less than zero or greater than the length, return false
 ->if the index is the same as the length, push a new node to the end of the list
 ->if the index is 0, unshift a new node to the start of the list
@@ -98,8 +98,10 @@ Insertion pseudocode:- (Adding a node to the linked list at a specific position)
 ->Set the next property on the new node to be the previous next
 
 Removed pseudocode:- ()
+*********************
 ->
 
 
 Reverse pseudocode:- ()
+*************************
 ->
