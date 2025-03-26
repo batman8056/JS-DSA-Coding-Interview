@@ -88,8 +88,9 @@ Set pseudocode :-(Changing the value of a node based on it's position in the Lin
 
 SingleLinkedList.js
 
-Insertion pseudocode:- ()
+Insertion pseudocode:- (Adding a node to the linked list at a specific position)
 
+->->This function should accept the value and index.
 ->
 
 Removed pseudocode:- ()

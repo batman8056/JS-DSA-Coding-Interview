@@ -82,11 +82,16 @@ class SingleLinkedList{
             current = current.next;
             counter++
         }
-        return console.log(current);
+        return current;
 
     }
     set(index,val){
-        
+       var foundIndex =  this.get(index);
+       if(foundIndex){
+            foundIndex.val = val;
+            return console.log(true);
+       }
+       return false;
     }
 }
 var list = new SingleLinkedList();
@@ -108,6 +113,9 @@ console.log(list);
 // console.log(list);
 // list.unshift("hello");// Added the first element of the list
 // console.log(list);
-list.get(2);
-console.log(list);
 
+list.get(1);
+// console.log(list);
+
+list.set(1, "hey")
+console.log(list);
