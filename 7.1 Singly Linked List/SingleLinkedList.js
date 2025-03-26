@@ -50,7 +50,7 @@ class SingleLinkedList{
             this.head = null;
             this.tail = null;
         }
-        return console.log(current);
+        return current;
     }
     shift(){
         if(!this.head) return undefined;
@@ -76,26 +76,38 @@ class SingleLinkedList{
     }
     get(index){
         if(index < 0 || index >=this.length) return null;
-        
+        var counter = 0;
+        var current = this.head;
+        while(counter !== index){
+            current = current.next;
+            counter++
+        }
+        return console.log(current);
 
     }
+    set(index,val){
+        
+    }
 }
-var list = new SingleLinkedList()
-list.push("Hi")
-list.push("there")
-list.push("how")
-list.push("are")
-list.push("you")
-list.push(100)
+var list = new SingleLinkedList();
+list.push("Hi");
+list.push("there");
+list.push("how");
+list.push("are");
+list.push("you");
+list.push(100);
 console.log(list);
 // Head → "Hi" → "there" → "how" → "are" → "you" → 100 → null
 
-list.pop(); // Removes 100
-list.pop(); // Removes "you"
+// list.pop(); // Removes 100
+// list.pop(); // Removes "you"
 
 // list.traverse();
+// console.log(list);
+// list.shift();// Remove the first element of the list
+// console.log(list);
+// list.unshift("hello");// Added the first element of the list
+// console.log(list);
+list.get(2);
 console.log(list);
-list.shift();// Remove the first element of the list
-console.log(list);
-list.unshift("hello")// Added the first element of the list
-console.log(list);
+

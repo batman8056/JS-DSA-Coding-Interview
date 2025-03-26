@@ -52,6 +52,7 @@ Shifting pseudocode :-(Removing a new node from the beginning of the linked List
 ->Set the haed property to be the current head's next property.
 ->Decrement the length by 1
 ->Return the value of the node removed
+SingleLinkedList.js
 
 Shifting pseudocode :-(Adding a new node from the beginning of the linked List)
 
@@ -66,6 +67,7 @@ Shifting pseudocode :-(Adding a new node from the beginning of the linked List)
   newly created node.
 ->Increment the length by 1
 ->Return the linked list
+SingleLinkedList.js
 
 Get pseudocode :-(Retrieving a node by it's position in the Linked List)
 
@@ -74,8 +76,25 @@ Get pseudocode :-(Retrieving a node by it's position in the Linked List)
   or equal to the length of the list, return null.
 ->Loop through the list until you reach the index 
   and return the node at that specific index.
+SingleLinkedList.js
+
+Set pseudocode :-(Changing the value of a node based on it's position in the Linked List)
+
+->This function should accept the value and index.
+->use your get function to find the specific node.
+->if the node is not found, return false.
+->if the node is found. set the value of that node 
+  to be the value passed to the function and return true.
+
+SingleLinkedList.js
+
+Insertion pseudocode:- ()
+
+->
+
+Removed pseudocode:- ()
+->
 
 
-Set pseudocode :-
-
+Reverse pseudocode:- ()
 ->
