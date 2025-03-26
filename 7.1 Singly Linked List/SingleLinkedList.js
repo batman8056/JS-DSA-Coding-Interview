@@ -27,15 +27,15 @@ class SingleLinkedList{
         return this;
     }
     // traverse(){
-        // var current = this.head;
-        // while(current){
+    //     var current = this.head;
+    //     while(current){
     //         console.log(current.val)
     //         current = current.next;
     //     }
     // }
 
-    //pop to the end of the node with value
-    pop(val){
+    //pop to the end of the node with value O(n)
+    pop(){
         if(!this.head) return undefined;
         var current = this.head;
         var newTail = current;
@@ -46,7 +46,38 @@ class SingleLinkedList{
         this.tail = newTail;
         this.tail.next = null;
         this.length--;
+        if(this.length === 0){
+            this.head = null;
+            this.tail = null;
+        }
         return console.log(current);
+    }
+    shift(){
+        if(!this.head) return undefined;
+        var currentHead = this.head;
+        this.head = currentHead.next;
+        this.length--;
+        if(this.length === 0){
+            this.tail = null;
+        }
+        return currentHead;
+    }
+    unshift(val){
+        var newNode = new Node(val);
+        if(!this.head){
+            this.head = newNode;
+            this.tail = this.head;
+        }else{
+            newNode.next = this.head;
+            this.head = newNode;
+        }
+        this.length++;
+        return newNode
+    }
+    get(index){
+        if(index < 0 || index >=this.length) return null;
+        
+
     }
 }
 var list = new SingleLinkedList()
@@ -59,7 +90,12 @@ list.push(100)
 console.log(list);
 // Head → "Hi" → "there" → "how" → "are" → "you" → 100 → null
 
-list.pop()//remove the last value 
-list.pop()
+list.pop(); // Removes 100
+list.pop(); // Removes "you"
+
 // list.traverse();
+console.log(list);
+list.shift();// Remove the first element of the list
+console.log(list);
+list.unshift("hello")// Added the first element of the list
 console.log(list);
