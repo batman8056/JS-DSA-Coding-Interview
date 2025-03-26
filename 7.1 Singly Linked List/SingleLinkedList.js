@@ -93,6 +93,9 @@ class SingleLinkedList{
        }
        return false;
     }
+    insert(){
+        
+    }
 }
 var list = new SingleLinkedList();
 list.push("Hi");

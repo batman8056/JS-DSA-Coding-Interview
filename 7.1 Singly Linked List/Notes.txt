@@ -78,7 +78,7 @@ Get pseudocode :-(Retrieving a node by it's position in the Linked List)
   and return the node at that specific index.
 SingleLinkedList.js
 
-Set pseudocode :-(Changing the value of a node based on it's position in the Linked List)
+Set(modify) pseudocode :-(Changing the value of a node based on it's position in the Linked List)
 
 ->This function should accept the value and index.
 ->use your get function to find the specific node.
@@ -90,8 +90,12 @@ SingleLinkedList.js
 
 Insertion pseudocode:- (Adding a node to the linked list at a specific position)
 
-->->This function should accept the value and index.
-->
+->if the index is less than zero or greater than the length, return false
+->if the index is the same as the length, push a new node to the end of the list
+->if the index is 0, unshift a new node to the start of the list
+->Otherwise, using the get method, access the node at the index -1
+->Set the next property on that node to be the new node
+->Set the next property on the new node to be the previous next
 
 Removed pseudocode:- ()
 ->
