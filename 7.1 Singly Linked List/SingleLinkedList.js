@@ -53,11 +53,13 @@ var list = new SingleLinkedList()
 list.push("Hi")
 list.push("there")
 list.push("how")
-// list.push("are")
-// list.push("you")
-// list.push(100)
+list.push("are")
+list.push("you")
+list.push(100)
 console.log(list);
 // Head → "Hi" → "there" → "how" → "are" → "you" → 100 → null
 
+list.pop()//remove the last value 
 list.pop()
 // list.traverse();
+console.log(list);
