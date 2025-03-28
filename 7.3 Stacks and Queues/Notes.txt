@@ -1,0 +1,20 @@
+Stack (LIFO - Last In, First Out)
+
+Stack Operations:-
+
+Push(x) → Add an element to the top (O(1))
+Pop() → Remove and return the top element (O(1))
+Peek() → Return the top element without removing (O(1))
+isEmpty() → Check if stack is empty (O(1))
+Size() → Return the number of elements (O(1))
+
+Queue (FIFO - First In, First Out)
+
+Queue Operations:-
+
+Enqueue(x) → Add an element to the end (O(1))
+Dequeue() → Remove an element from the front (O(1))
+Peek() → Return the front element (O(1))
+isEmpty() → Check if queue is empty (O(1))
+Size() → Return number of elements (O(1))
+

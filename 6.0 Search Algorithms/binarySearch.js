@@ -10,5 +10,6 @@ function search(arr,val){
             middle = Math.floor((min + max) /2);
          }
         return arr[middle] == val ? middle : -1;
+        
 }
 console.log(search([1, 2, 3, 4, 5, 6],5));
